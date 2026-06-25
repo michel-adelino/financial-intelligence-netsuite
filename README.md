@@ -1,10 +1,6 @@
 # Gantry Financial Suite
 
-[![NetSuite](https://img.shields.io/badge/NetSuite-SuiteApp-blue)](https://www.netsuite.com/)
-[![SuiteScript](https://img.shields.io/badge/SuiteScript-2.1-green)](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-Enterprise financial intelligence platform for NetSuite delivering real-time analytics, forecasting, and forensic intelligence through 10 specialized dashboards and an AI-powered financial advisor.
+Financial intelligence platform for NetSuite delivering real-time analytics, forecasting, and forensic intelligence through 10 specialized dashboards and an AI-powered financial advisor.
 
 Gantry is open source and released under the MIT License. This project is not affiliated with, certified by, or endorsed by Oracle NetSuite.
 
@@ -197,7 +193,7 @@ Dashboard configuration and personalization:
 Gantry is deployed with the SuiteCloud Development Framework (SDF):
 
 ```bash
-git clone https://github.com/braedonsaunders/com.flux.gantry.git
+git clone https://github.com/michel-adelino/financial-intelligence-netsuite
 cd com.flux.gantry
 npm install
 npx suitecloud account:setup
@@ -217,6 +213,3 @@ See the [installation guide](docs/installation.mdx) for details and [configurati
 
 Released under the [MIT License](LICENSE).
 
-## Contributing
-
-Issues and pull requests are welcome via [GitHub](https://github.com/braedonsaunders/com.flux.gantry). Please avoid committing customer data, account credentials, private keys, or screenshots containing sensitive NetSuite information.
